@@ -10,6 +10,6 @@ project_name=${1}
 version=${2}
 
 archive_filename="${project_name}.${version}.tar.gz"
-swift_filepath="${version}/${project_name}.tar.gz"
+swift_filepath="${version}/build.tar.gz"
 
 swift upload ${project_name} ${archive_filename} --object-name ${swift_filepath}
