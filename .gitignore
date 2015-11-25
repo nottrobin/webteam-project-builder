@@ -1,4 +1,5 @@
 */
+!lib/
 latest
 *.tar.gz
 *.build-label-for-staging
